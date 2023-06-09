@@ -1,11 +1,15 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
+}
+body{
+    background-color: rgb(123, 215, 243);
+}
 fieldset{
+    background: transparent;
     width: 100px;
-    height: ;
+    height: 450px;
     position: absolute;
     align-items: center;
     padding: 30px;
@@ -16,4 +20,78 @@ fieldset{
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+}
+input{
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #f1f1;
+    border-radius: 10px;
+    height: 30px;
+    width: 40vh;
+    box-sizing: border-box;
+    box-shadow: 10px 8px 16px 10px rgba(0, 0, 0, 0.067);
+    text-align: center;
+    padding: 15px;
+}
+#log{
+   width: 100px;
+   padding: 10px;
+   border-radius: 20px;
+   border: none;
+   font-size: 15px;
+   font-family: monospace;
+   font-weight: bolder;
+   left: 110px;
+   top: 55%;
+   position: absolute;
+   text-align: center;
+   transition-duration: .2s;
+}
+#log:hover{
+    background-color: transparent;
+    color: #fff;
+    transform: scale(1.3);
+    transition-duration: .5s;
+}
+#log a{
+    text-decoration: none;
+    color: rgb(27, 10, 253);
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+}
+/* icon styling */
+i {
+    color: rgba(41, 20, 41, 0.466);
+}
+#i1{
+    position: absolute;
+    top: 9%;
+    left: 15%;
+}
+#i2{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+#i3{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+h1{
+    position: absolute;
+    top: 5%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: goldenrod;
 }

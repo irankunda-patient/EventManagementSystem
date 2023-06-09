@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(download\ kgl2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* styling menu */
+.header{
+    position: fixed;
+    top: 1%;
+    left: 2%;
+}
+.menu{
+    position: absolute;
+    top: 5%;
+    width: 1200px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    left: 5%;
+}
+.menu ul{
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    position: absolute;
+    background-color: aqua;
+    margin-left: 100px;
+    width: calc(100% - 190px);
+    padding: 10px;
+}
+.menu ul li{
+    display: inline-block;
+    /* margin-right: 20px; */
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 14px;
+    margin-left: 50px;
+    display: block;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu ul li:last-child{
+    float: right;
+}
+.menu ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.253);
+    color: #fff;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu ul ul{
+    display: none;
+    position: absolute;
+    text-align: left;
+    list-style: none;
+    width: 15%;
+    border: none;
+    border-radius: 0px;
+    margin-right: 20px;
+}
+/* styilng form */
+.container{
+    height: 2vh;
+}
+#evoption{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    display: block;
+    top: 10%;
+    left: 40%;
+    height: 5vh;
+
+}
+h2{
+    /* font-size: large; */
+    font-weight: bold;
+    font-family: serif;
+    padding: 3%;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+#select1, #select2{
+    width: 110%;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid rgb(196, 3, 255);
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    background-color: rgba(210, 210, 255, 0.842);
+}
+input{
+        width: 110%;
+        height: 50%;
+        text-align: center;
+        border: 1px solid rgb(196, 3, 255);
+        outline: none;
+        font-size: 25px;
+        font-weight: bold;
+        /* font-style: italic; */
+        font-family: monospace;
+        color: blue;
+        background-color: rgb(173, 173, 255);
+        padding: 1%;
+}
+#submit{
+    position: absolute;
+    top: 80%;
+    left: 48%;
+    width: 90px;
+    padding: 5px;
+    letter-spacing: 4px;
+   
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: blue;
+    box-sizing: border-box;
+    box-shadow: 8xpx 0px 8px 16px rgb(0, 0, 0);
+    background-color: aqua;
+}
+#submit:hover{
+    text-decoration: underline;
+}
+#submit a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    color: maroon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    width: 1200px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.315);
+    position: absolute;
+    top: 90%;
+    margin-left: 90px;
+    bottom: 20vh;
+    text-align: center;
+    padding: 1%;
+}

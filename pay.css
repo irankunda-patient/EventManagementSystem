@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(download\ kgl2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* styling menu */
+.header{
+    position: fixed;
+    top: 1%;
+    left: 2%;
+}
+.menu{
+    position: absolute;
+    top: 5%;
+    width: 1200px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    left: 5%;
+}
+.menu ul{
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    position: absolute;
+    background-color: aqua;
+    margin-left: 100px;
+    width: calc(100% - 190px);
+    padding: 10px;
+}
+.menu ul li{
+    display: inline-block;
+    /* margin-right: 20px; */
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 14px;
+    margin-left: 50px;
+    display: block;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu ul li:last-child{
+    float: right;
+}
+.menu ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.253);
+    color: #fff;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu ul ul{
+    display: none;
+    position: absolute;
+    text-align: left;
+    list-style: none;
+    width: 15%;
+    border: none;
+    border-radius: 0px;
+    margin-right: 20px;
+}
+#deal{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+h1{
+    font-size: 45px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    background: linear-gradient(45deg, aqua, 50%, violet );
+}
+#icon ul{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    width: 1200px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.315);
+    position: absolute;
+    top: 90%;
+    margin-left: 90px;
+    bottom: 20vh;
+    text-align: center;
+    padding: 1%;
+}
+h2{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgba(10, 10, 10, 0.6);
+    position: absolute;
+    left: 150%;
+    top: 0%;
+}
+h2:hover{
+    color: rgba(10, 10, 10, 0.6);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+input{
+    padding: 2px;
+    outline: none;
+    font-size: large;
+    font-family: monospace;
+    border: none;
+}
+#icon{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(28, 3, 248);
+}
+button{
+    padding: 10px;
+    border-radius: 50px ;
+    border: 1px solid #fff;
+    background: #fff;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    transform: scale(1.2);
+    background: transparent;
+    cursor: pointer;
+
+}
